@@ -1,0 +1,182 @@
+[gd_scene format=3 uid="uid://cp45t7l3v7gnu"]
+
+[ext_resource type="Material" uid="uid://ce4e2oiemy5pp" path="res://kenney_prototype-textures/greygrid.tres" id="1_sv5ss"]
+[ext_resource type="PackedScene" uid="uid://cxy2574brpw7d" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/corridor-corner.glb" id="2_g831r"]
+[ext_resource type="PackedScene" uid="uid://cvt1m1fnvow35" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/corridor-end.glb" id="3_a3erh"]
+[ext_resource type="PackedScene" uid="uid://buk0s051siok8" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/corridor-intersection.glb" id="4_0ns4t"]
+[ext_resource type="PackedScene" uid="uid://d161yffbf3rfg" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/corridor-junction.glb" id="5_cn5jm"]
+[ext_resource type="PackedScene" uid="uid://cov5d1e3lj4jf" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/corridor-transition.glb" id="6_m3hed"]
+[ext_resource type="PackedScene" uid="uid://dox1lpx5l3rjm" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/corridor-wide-corner.glb" id="7_0mbye"]
+[ext_resource type="PackedScene" uid="uid://dly10shqtluie" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/corridor-wide-end.glb" id="8_32kk2"]
+[ext_resource type="PackedScene" uid="uid://cpd2o4trkevwm" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/corridor-wide-intersection.glb" id="9_2ti05"]
+[ext_resource type="PackedScene" uid="uid://dbk224qomncfq" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/corridor-wide-junction.glb" id="10_ees67"]
+[ext_resource type="PackedScene" uid="uid://dyp1s72n1lrh5" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/corridor-wide.glb" id="11_foqsq"]
+[ext_resource type="PackedScene" uid="uid://wb581s03jvnc" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/corridor.glb" id="12_mv5sd"]
+[ext_resource type="PackedScene" uid="uid://dvu134lsd7rs6" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/gate-metal-bars.glb" id="13_idv7g"]
+[ext_resource type="PackedScene" uid="uid://80giuxsk18lc" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/gate-overhang.glb" id="14_d1a33"]
+[ext_resource type="PackedScene" uid="uid://b23tw8mkai78b" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/gate-rock.glb" id="15_akduo"]
+[ext_resource type="PackedScene" uid="uid://csnm4ksp0aj3h" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/gate.glb" id="16_tpvdb"]
+[ext_resource type="PackedScene" uid="uid://d01nn7fs87a56" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/ladder.glb" id="17_mo5f2"]
+[ext_resource type="PackedScene" uid="uid://btant3bgrinyn" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/room-corner.glb" id="18_m874q"]
+[ext_resource type="PackedScene" uid="uid://dwec6q0dni04a" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/room-large-variation.glb" id="19_0pkne"]
+[ext_resource type="PackedScene" uid="uid://bt28803g4snk7" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/room-large.glb" id="20_6shi3"]
+[ext_resource type="PackedScene" uid="uid://drmgg5ongfnwa" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/room-small-variation.glb" id="21_8in7h"]
+[ext_resource type="PackedScene" uid="uid://cf5cxq4u7jv1g" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/room-small.glb" id="22_gk3d0"]
+[ext_resource type="PackedScene" uid="uid://b8ciuyvbecl04" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/room-wide-variation.glb" id="23_oj7ck"]
+[ext_resource type="PackedScene" uid="uid://dhfm2tx0mkewm" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/room-wide.glb" id="24_80ps4"]
+[ext_resource type="PackedScene" uid="uid://d12rmay3v7w04" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/stairs-wide.glb" id="25_au332"]
+[ext_resource type="PackedScene" uid="uid://ce63sccowyoxq" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/stairs.glb" id="26_8lnkh"]
+[ext_resource type="PackedScene" uid="uid://drpg3xkg8t8r3" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/template-corner.glb" id="27_3qkf6"]
+[ext_resource type="PackedScene" uid="uid://blsxjoebn2wrx" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/template-detail.glb" id="28_0ncdc"]
+[ext_resource type="PackedScene" uid="uid://inbyndg07fdq" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/template-floor-big.glb" id="29_cyduc"]
+[ext_resource type="PackedScene" uid="uid://bq0863xeapnq0" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/template-floor-detail-a.glb" id="30_lx7s2"]
+[ext_resource type="PackedScene" uid="uid://drtkkjtsihbi1" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/template-floor-detail.glb" id="31_tmw2y"]
+[ext_resource type="PackedScene" uid="uid://cott5wyxqylbs" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/template-floor-layer-hole.glb" id="32_v3nne"]
+[ext_resource type="PackedScene" uid="uid://ksv5etiwdpgn" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/template-floor-layer-raised.glb" id="33_op5nk"]
+[ext_resource type="PackedScene" uid="uid://bvpjhkvbbl2ws" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/template-floor-layer.glb" id="34_b2e0r"]
+[ext_resource type="PackedScene" uid="uid://cno84s636t6yh" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/template-floor.glb" id="35_qt110"]
+[ext_resource type="PackedScene" uid="uid://bcvdp8lxx33io" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/template-wall-corner.glb" id="36_6ys1e"]
+[ext_resource type="PackedScene" uid="uid://cnhrucpk2sw1p" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/template-wall-detail-a.glb" id="37_355bn"]
+[ext_resource type="PackedScene" uid="uid://uatwlr41ipet" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/template-wall-half.glb" id="38_38i67"]
+[ext_resource type="PackedScene" uid="uid://b2oxnxd1uqwa5" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/template-wall-stairs.glb" id="39_8bxx3"]
+[ext_resource type="PackedScene" uid="uid://8eabqwxvl8fq" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/template-wall-top.glb" id="40_7pwuc"]
+[ext_resource type="PackedScene" uid="uid://xx5egtch0i7y" path="res://kenney_modular-cave-kit_1.0/Models/GLB format/template-wall.glb" id="41_26gfm"]
+
+[node name="Prototype" type="Node3D" unique_id=1946511156]
+
+[node name="CSGCombiner3D" type="CSGCombiner3D" parent="." unique_id=771834520]
+use_collision = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="CSGCombiner3D" unique_id=887303384]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.5)
+use_collision = true
+size = Vector3(25, 1, 38)
+material = ExtResource("1_sv5ss")
+
+[node name="Scale 1mX1m" type="CSGBox3D" parent="CSGCombiner3D" unique_id=949670326]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, -5)
+material = ExtResource("1_sv5ss")
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="CSGCombiner3D" unique_id=1330957032]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, -13)
+material = ExtResource("1_sv5ss")
+
+[node name="corridor-corner2" parent="." unique_id=453941379 instance=ExtResource("2_g831r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40, 0, -8)
+
+[node name="corridor-end2" parent="." unique_id=1698888381 instance=ExtResource("3_a3erh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -52, 0, -13)
+
+[node name="corridor-intersection2" parent="." unique_id=418385278 instance=ExtResource("4_0ns4t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -53, 0, -3)
+
+[node name="corridor-junction2" parent="." unique_id=1168281171 instance=ExtResource("5_cn5jm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36, 0, -21)
+
+[node name="corridor-transition2" parent="." unique_id=690537454 instance=ExtResource("6_m3hed")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -42, 0, 2)
+
+[node name="corridor-wide-corner2" parent="." unique_id=1219194426 instance=ExtResource("7_0mbye")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -46, 0, -22)
+
+[node name="corridor-wide-end2" parent="." unique_id=1838760047 instance=ExtResource("8_32kk2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25, 0, -14)
+
+[node name="corridor-wide-intersection2" parent="." unique_id=1160635245 instance=ExtResource("9_2ti05")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -64, 0, -12)
+
+[node name="corridor-wide-junction2" parent="." unique_id=91215056 instance=ExtResource("10_ees67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -65, 0, 0)
+
+[node name="corridor-wide2" parent="." unique_id=2102136586 instance=ExtResource("11_foqsq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28, 0, -4)
+
+[node name="corridor2" parent="." unique_id=357337520 instance=ExtResource("12_mv5sd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -61, 0, -28)
+
+[node name="gate-metal-bars2" parent="." unique_id=1626998008 instance=ExtResource("13_idv7g")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -41, 0, -32)
+
+[node name="gate-overhang2" parent="." unique_id=922460783 instance=ExtResource("14_d1a33")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29, 0, -22)
+
+[node name="gate-rock2" parent="." unique_id=204305758 instance=ExtResource("15_akduo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -45, 0, -13)
+
+[node name="gate2" parent="." unique_id=1603164258 instance=ExtResource("16_tpvdb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -47, 0, -5)
+
+[node name="ladder2" parent="." unique_id=76870395 instance=ExtResource("17_mo5f2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36, 0, -5)
+
+[node name="room-corner2" parent="." unique_id=383681089 instance=ExtResource("18_m874q")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21, 0, -38)
+
+[node name="room-large-variation2" parent="." unique_id=1780636712 instance=ExtResource("19_0pkne")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -81, 0, -8)
+
+[node name="room-large2" parent="." unique_id=1227431909 instance=ExtResource("20_6shi3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -73, 0, 20)
+
+[node name="room-small-variation2" parent="." unique_id=1632326539 instance=ExtResource("21_8in7h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -51, 0, -38)
+
+[node name="room-small2" parent="." unique_id=1440072413 instance=ExtResource("22_gk3d0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39, 0, 17)
+
+[node name="room-wide-variation2" parent="." unique_id=2067299507 instance=ExtResource("23_oj7ck")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33, 0, -53)
+
+[node name="room-wide2" parent="." unique_id=245558117 instance=ExtResource("24_80ps4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -79, 0, -26)
+
+[node name="stairs-wide2" parent="." unique_id=2092518333 instance=ExtResource("25_au332")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -56, 0, -19)
+
+[node name="stairs2" parent="." unique_id=1980446564 instance=ExtResource("26_8lnkh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33, 0, -28)
+
+[node name="template-corner2" parent="." unique_id=62303044 instance=ExtResource("27_3qkf6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -53, 0, 8)
+
+[node name="template-detail2" parent="." unique_id=669181093 instance=ExtResource("28_0ncdc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -58, 0, 8)
+
+[node name="template-floor-big2" parent="." unique_id=194042993 instance=ExtResource("29_cyduc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -57, 0, 17)
+
+[node name="template-floor-detail-a2" parent="." unique_id=667990419 instance=ExtResource("30_lx7s2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30, 0, 8)
+
+[node name="template-floor-detail2" parent="." unique_id=530401083 instance=ExtResource("31_tmw2y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26, 0, 8)
+
+[node name="template-floor-layer-hole2" parent="." unique_id=764228975 instance=ExtResource("32_v3nne")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21, 0, 8)
+
+[node name="template-floor-layer-raised2" parent="." unique_id=1141108091 instance=ExtResource("33_op5nk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26, 0, 14)
+
+[node name="template-floor-layer2" parent="." unique_id=1321140967 instance=ExtResource("34_b2e0r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21, 0, 2)
+
+[node name="template-floor2" parent="." unique_id=828443855 instance=ExtResource("35_qt110")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34, 0, 8)
+
+[node name="template-wall-corner2" parent="." unique_id=415332507 instance=ExtResource("36_6ys1e")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -37, 0, 4)
+
+[node name="template-wall-detail-a2" parent="." unique_id=771435130 instance=ExtResource("37_355bn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19, 0, -5)
+
+[node name="template-wall-half2" parent="." unique_id=2122052264 instance=ExtResource("38_38i67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17, 0, 5)
+
+[node name="template-wall-stairs2" parent="." unique_id=630660095 instance=ExtResource("39_8bxx3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21, 0, -2)
+
+[node name="template-wall-top2" parent="." unique_id=651790239 instance=ExtResource("40_7pwuc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35, 0, -10)
+
+[node name="template-wall2" parent="." unique_id=1708900991 instance=ExtResource("41_26gfm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35, 0, -14)
