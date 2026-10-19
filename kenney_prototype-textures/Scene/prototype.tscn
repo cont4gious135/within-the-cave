@@ -54,7 +54,8 @@ size = Vector3(25, 1, 38)
 material = ExtResource("1_sv5ss")
 
 [node name="Scale 1mX1m" type="CSGBox3D" parent="CSGCombiner3D" unique_id=949670326]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, -5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 1, -38)
+size = Vector3(2, 1, 67)
 material = ExtResource("1_sv5ss")
 
 [node name="CSGBox3D3" type="CSGBox3D" parent="CSGCombiner3D" unique_id=1330957032]
@@ -183,3 +184,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35, 0, -10)
 
 [node name="template-wall2" parent="." unique_id=1708900991 instance=ExtResource("41_26gfm")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35, 0, -14)
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="." unique_id=1512824510]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, -5)
