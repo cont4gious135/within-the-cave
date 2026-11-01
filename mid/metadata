@@ -1,0 +1,199 @@
+{
+	"assetNamespace": "fab",
+	"listing":
+	{
+		"averageRating": 0,
+		"createdAt": "",
+		"description": "<p><strong>Texel density:</strong> 5703 px/m</p><p><strong>Physical size:</strong> 1.82m x 2.55m x 2.11m</p><p><strong>Mesh type:</strong> Closed mesh</p><p><strong>Maps:</strong> Bump Displacement<em>(high tier only)</em> Gloss Basecolor Specular AO Roughness Cavity Normal Fuzz</p> <p><span>Create high-quality 3D experiences and worlds with Quixel Megascans. Browse thousands of photorealistic assets and environments, including materials, 3D assets, plants, decals, and more available </span><a target=\"_blank\" href=\"https://www.fab.com/sellers/Quixel\" rel=\"noopener noreferrer nofollow\"><span><u>here</u></span></a><span> on Fab.</span></p><p></p><p><span>For any questions or support regarding Quixel content, please get in touch </span><a target=\"_blank\" href=\"https://support.fab.com/s/?ProductOrigin=1PC\" rel=\"noopener noreferrer nofollow\"><span><u>here</u></span></a><span>.</span></p>",
+		"isAiForbidden": true,
+		"isAiGenerated": false,
+		"lastUpdatedAt": "",
+		"listingType": "3d-model",
+		"media": "https://media.fab.com/image_previews/gallery_images/2dda4af5-75aa-4e9a-9b55-fdee7e2773dd/cb63f038-1b25-4c2c-997d-aa5c381e1bf8.jpeg",
+		"publishedAt": "2024-10-11T20:08:17.254739Z",
+		"reviewCount": 0,
+		"thumbnail": "https://media.fab.com/image_previews/gallery_images/e645dacf-d33d-490e-8438-ac5b10ce5ca7/b981c4d6-c222-4116-8961-1ed8179065f5.jpeg",
+		"title": "Mud Rock",
+		"uid": "4732a8df-3b76-4df4-aecb-936fdde87c4e",
+		"updatedAt": "",
+		"user":
+		{
+			"coverImageUrl": "https://cdn1.epicgames.com/fab/seller/o-cbf5bbfdb340d6a839b5520cb31328/cover/67dbdb8f.jpg",
+			"profileImageUrl": "https://cdn1.epicgames.com/fab/seller/o-cbf5bbfdb340d6a839b5520cb31328/profile/39e5dabd.png",
+			"sellerName": "Quixel Megascans",
+			"uid": "45ea3429-f62c-4f17-aa15-5bb9dfcd0079"
+		},
+		"tags": [
+			{
+				"name": "Subtropical",
+				"slug": "subtropical",
+				"uid": "102a0502-6780-4712-b526-6d225b8ff586"
+			},
+			{
+				"name": "Partner",
+				"slug": "partner",
+				"uid": "13353aed-c0bc-469e-819c-4f251ec60a15"
+			},
+			{
+				"name": "Weathered",
+				"slug": "weathered",
+				"uid": "1b898690-ea9c-4c08-9dcf-4f1c7582d1b5"
+			},
+			{
+				"name": "Tropical",
+				"slug": "tropical",
+				"uid": "24421ef4-e086-4ae1-899a-467473fa6c68"
+			},
+			{
+				"name": "Stone",
+				"slug": "stone",
+				"uid": "3b7b9846-a26c-48e0-99e0-866350f162aa"
+			},
+			{
+				"name": "Rock",
+				"slug": "rock",
+				"uid": "3f071878-96ef-47c7-ac6e-3264a25fef81"
+			},
+			{
+				"name": "Grassland",
+				"slug": "grassland",
+				"uid": "51e154d7-a314-4401-b04e-13ee74ee332d"
+			},
+			{
+				"name": "Dirty",
+				"slug": "dirty",
+				"uid": "54b617d2-d7e9-439d-9bd8-2787675a47e3"
+			},
+			{
+				"name": "Dull",
+				"slug": "dull",
+				"uid": "795ddc5a-1565-4711-84be-09883cb17504"
+			},
+			{
+				"name": "Content",
+				"slug": "content",
+				"uid": "81f7e023-0418-4373-99c5-c1bbebcde551"
+			},
+			{
+				"name": "Rough",
+				"slug": "rough",
+				"uid": "abd824a5-384f-43b7-8e90-b4a5207bb0b3"
+			},
+			{
+				"name": "Dirt",
+				"slug": "dirt",
+				"uid": "afb8dbdd-8c6c-44d6-a69b-9197f4a84963"
+			},
+			{
+				"name": "Riverbed",
+				"slug": "riverbed",
+				"uid": "b037fadb-1f98-4718-8d1a-63a5959469cc"
+			},
+			{
+				"name": "Savanna",
+				"slug": "savanna",
+				"uid": "ee11f320-7917-4b4b-ab19-944e4f3fa89e"
+			}
+		],
+		"category":
+		{
+			"name": "Rocks & Stones",
+			"path": "nature-plants/rocks-stones",
+			"slug": "nature-plants--rocks-stones",
+			"uid": "6af99a0d-ca5b-4784-b0df-15a0a861c00a"
+		},
+		"assetFormats": [
+			{
+				"assetFormatType":
+				{
+					"name": "FBX",
+					"groupName": "3D Exchange Formats",
+					"code": "fbx",
+					"icon": "cube",
+					"extensions": [
+						"fbx"
+					]
+				}
+			},
+			{
+				"assetFormatType":
+				{
+					"name": "Converted Files",
+					"groupName": "",
+					"code": "converted-files",
+					"icon": "cube",
+					"extensions": [
+						"gltf",
+						"glb",
+						"usdz"
+					]
+				}
+			},
+			{
+				"assetFormatType":
+				{
+					"name": "ZBrush",
+					"groupName": "3D DCC Formats",
+					"code": "z-brush",
+					"icon": "zbrush",
+					"extensions": [
+						"zbp",
+						"ztl"
+					]
+				}
+			},
+			{
+				"assetFormatType":
+				{
+					"name": "Additional files",
+					"groupName": "Other Formats",
+					"code": "additional-files",
+					"icon": "file",
+					"extensions": [
+						"zip"
+					]
+				}
+			},
+			{
+				"assetFormatType":
+				{
+					"name": "GLTF",
+					"groupName": "3D Exchange Formats",
+					"code": "gltf",
+					"icon": "cube",
+					"extensions": [
+						"gltf"
+					]
+				}
+			},
+			{
+				"assetFormatType":
+				{
+					"name": "UEFN Reference",
+					"groupName": "Game Engine Formats",
+					"code": "uefn",
+					"icon": "unreal-engine",
+					"extensions": []
+				}
+			}
+		],
+		"_PluginMetas":
+		{
+			"apiDataVersion": "0.0.1",
+			"entitlementUid": "",
+			"cacheSize": 0,
+			"downloaded": []
+		}
+	},
+	"target": "",
+	"quality": "mid",
+	"format": "glb",
+	"fileId": "da7dd6de-6449-4499-8f91-e29c06af9798",
+	"platformIncluded": "",
+	"distributionPointBaseUrls": [],
+	"distributionMethod": "",
+	"entitlementUid": "",
+	"invertedNormal": false,
+	"isConverted": true,
+	"isQuixel": true
+}

@@ -1,8 +1,29 @@
 [gd_scene format=3 uid="uid://cp45t7l3v7gnu"]
 
+[ext_resource type="MeshLibrary" uid="uid://de2bcijn82207" path="res://kenneycavemeshlibrary.tres" id="1_h775k"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_wasl6"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_e3mnc"]
+sky_material = SubResource("ProceduralSkyMaterial_wasl6")
+
+[sub_resource type="Environment" id="Environment_4hm70"]
+background_mode = 2
+sky = SubResource("Sky_e3mnc")
+glow_enabled = true
+
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_g4v7s"]
 
 [node name="Prototype" type="Node3D" unique_id=1946511156]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1331311535]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+shadow_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=906610551]
+environment = SubResource("Environment_4hm70")
 
 [node name="CSGCombiner3D" type="CSGCombiner3D" parent="." unique_id=771834520]
 use_collision = true
@@ -10,5 +31,13 @@ use_collision = true
 [node name="CSGBox3D2" type="CSGBox3D" parent="CSGCombiner3D" unique_id=65958774]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="CSGCombiner3D" unique_id=900255481]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4345019, 2.401974, -4.9900036)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4345019, 2.401974, 0.57747364)
 mesh = SubResource("CapsuleMesh_g4v7s")
+
+[node name="GridMap" type="GridMap" parent="." unique_id=852913998]
+mesh_library = ExtResource("1_h775k")
+cell_size = Vector3(4, 4, 4)
+data = {
+"cells": PackedInt32Array(0, 65534, 655371, 131071, 65534, 1376295, 65536, 65534, 1376295, 65537, 65534, 1376295, 65539, 65534, 1376295, 65538, 65534, 1376295, 2, 65534, 5, 3, 65534, 655367, 65539, 65533, 1376295, 65538, 65533, 1376295, 65537, 65533, 1376295, 65537, 65535, 1376295, 65539, 65535, 1376295, 65538, 65535, 1376295, 65535, 65534, 11, 65534, 65534, 11, 65550, 65509, 524317)
+}
+metadata/_editor_floor_ = Vector3(0, 1, 0)
