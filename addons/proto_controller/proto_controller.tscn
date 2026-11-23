@@ -32,11 +32,12 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7, 0)
 
 [node name="Camera3D" type="Camera3D" parent="Head" unique_id=976402029]
 
-[node name="flashlight" parent="." unique_id=2073399121 instance=ExtResource("2_wr06p")]
-transform = Transform3D(-1.3113416e-09, 0, 0.03, 0, 0.03, 0, -0.03, 0, -1.3113416e-09, 0.4720255, 1.3730056, -0.47123784)
+[node name="flashlight" parent="Head/Camera3D" unique_id=2073399121 instance=ExtResource("2_wr06p")]
+transform = Transform3D(-1.3113416e-09, 0, 0.03, 0, 0.03, 0, -0.03, 0, -1.3113416e-09, 0.4720255, -0.32699442, -0.47123784)
 
-[node name="SpotLight3D" type="SpotLight3D" parent="flashlight" unique_id=700114309]
+[node name="SpotLight3D" type="SpotLight3D" parent="Head/Camera3D/flashlight" unique_id=700114309]
 transform = Transform3D(-1.4570473e-06, 0, -33.333336, 0, 33.333336, 0, 33.333336, 0, -1.4570473e-06, 11.162593, -0.041706085, 0.111063)
 light_color = Color(1, 0.8509804, 0, 1)
 shadow_enabled = true
+shadow_reverse_cull_face = true
 spot_range = 15.0
